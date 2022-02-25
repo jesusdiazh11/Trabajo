@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+main {
+    width: 100%;
+    height: 800rem;
+    background-color: black;
+    
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+main .s1 {
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+main .p {
+    padding: 1rem;
+}
+
+main .p1 {
+    font-size: 8rem;
+}
+
+main .p2 {
+    font-size: 4rem;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav_ul {
+    display: flex; 
+    list-style-type: none;
+}
+
+.nav_ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 4rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: darkred;
+    font-size: 2rem;
+    
+}
+
+.nav_ul li select {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    margin-left: 3rem;
+}
+
+.nav_ul li button {
+    color: white;
+    padding: .6rem;
+    border-radius: 0.5rem;
+    background-color: darkred;
+    margin-inline: 3rem;
+    font-size: 2rem;
+}
+
+.inp_email {
+    width: 50rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
+.btn_comenzar {
+    width: 20rem;
+    height: 4rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.s2 {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+}
+
